@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'Space';
+    src: url('SpaceX.ttf') format('woff2'),
+    
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  #learn-more{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 12px;
+  }
+/* First Section */
+  #navbar{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+
+  #logo p {
+    font-size: 25px;
+    margin-top: 1px;
+    margin-left: 79px;
+    color: white;
+   
+  }
+  
+  #navbar ul{
+    display: flex;
+    margin-left: 81px;
+    margin-top: 25px;
+
+  }
+  #navbar ul li{
+    list-style: none;
+    font-size: 12px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+  }
+  #navbar ul li a {
+    display: block;
+    padding-right: 27px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden; /* Ensure the overflow is hidden to prevent the jumping effect */
+}
+
+#navbar ul li a:after {
+    content: '';
+    position: absolute;
+    width: 100em;
+    height: 0.5px; /* Set your desired underline height */
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff; /* Set your desired underline color */
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+}
+
+#navbar ul li a:hover:after {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+ 
+  .starlight{
+    width: 100%;
+    height: 718px;
+    position: absolute;
+  }
+  #shop{
+    margin-left: 201px;
+  }
+
+#menu{
+ margin-bottom: 2px;
+ height: 1px;
+ background-color: white;
+
+}
+#sec-1{
+  margin-top: 892px;
+  margin-left: 80px;
+ position: absolute;
+ width: 520px;
+ height: 224px;
+}
+#sec-1 #a1{
+ color: white;
+  font-size: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-top: 3px;
+}
+#sec-1 #a2{
+  margin-left: -160px;
+ margin-top: 31px;
+  color: white;
+  font-size: 48px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  position: absolute;
+}
+#sec-1 #a3{
+  color: white;
+  font-size: 48px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  margin-left: -160px;
+  margin-top: 80px;
+  position: absolute;
+}
+#sec-1 button{
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  position: absolute;
+  margin-left: -160px;
+  margin-top: 171px;
+  cursor: pointer;
+}
+#sec-1 button:hover{
+  background-color: white;
+  color: black;
+  transform: scaleX(1);
+  transition: all 0.3s ease;
+}
+
+ /* Section-2 */
+ .starlink-1{
+  width: 1460px;
+  height: 717px;
+  position: absolute;
+  margin-top: 618px;
+}
+ #sec-2{
+  margin-top: 1080px;
+  margin-left: 167px;
+ position: absolute;
+ width: 520px;
+ height: 176px;
+ display: grid;
+}
+
+#sec-2 #a1{
+  font-family: 'Noto Sans KR', sans-serif;
+ color: white;
+ position: absolute;
+ margin-left: -83px;
+
+}
+#sec-2 #a2{
+ margin-top: 27px;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  margin-left: -84px;
+
+}
+#sec-2 button{
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  margin-top: 18px;
+  cursor: pointer;
+  margin-left: -83px;
+
+}
+#sec-2 button:hover{
+  background-color: white;
+  color: black;
+}
+/*Section-3 */
+.k-mission{
+  width: 1460px;
+  height: 717px;
+  position: absolute;
+  margin-top: 1335px;
+}
+#sec-3{
+  margin-top: 1794px;
+  margin-left: 167px;
+ position: absolute;
+ width: 520px;
+ height: 176px;
+ display: grid;
+}
+#sec-3 #a1{
+  font-family: 'Noto Sans KR', sans-serif;
+ color: white;
+ position: absolute;
+ margin-left: -83px;
+
+}
+#sec-3 #a2{
+  margin-top: 27px;
+   color: rgb(255, 255, 255);
+   font-size: 48px;
+   font-family: 'Barlow Semi Condensed', sans-serif;
+   margin-left: -84px;
+ 
+ }
+ #sec-3 button{
+   color: white;
+   background-color: transparent;
+   border-color: white;
+   margin-top: 18px;
+   cursor: pointer;
+   margin-left: -83px;
+ 
+ }
+ #sec-3 button:hover{
+   background-color: white;
+   color: black;
+ }
+
+/* Final Section */
+.starlink-2{
+  width: 1460px;
+  height: 717px;
+  position: absolute;
+  margin-top: 2052px;
+}
+#sec-4{
+  margin-top: 2490px;
+  margin-left: 167px;
+ position: absolute;
+ width: 520px;
+ height: 176px;
+ display: grid;
+}
+#sec-4 #a1{
+  font-family: 'Noto Sans KR', sans-serif;
+ color: white;
+ position: absolute;
+ margin-left: -83px;
+
+}
+#sec-4 #a2{
+  margin-top: 27px;
+   color: rgb(255, 255, 255);
+   font-size: 48px;
+   font-family: 'Barlow Semi Condensed', sans-serif;
+   margin-left: -84px;
+ 
+ }
+ #sec-4 button{
+   color: white;
+   background-color: transparent;
+   border-color: white;
+   margin-top: 18px;
+   cursor: pointer;
+   margin-left: -83px;
+ 
+ }
+ #sec-4 button:hover{
+   background-color: white;
+   color: black;
+ }
+
+ #footer{
+  justify-content: center;
+    margin-top: 2769px;
+   position: absolute;
+   width: 1460px;
+   height: 80px;
+   display: flex;
+  background-color: black;
+  color: white;
+ }
+
+#footer p{
+  padding: 2px;
+  font-family: 'Merriweather Sans', sans-serif;
+margin: 31px 21px ;
+font-size: 12px;
+}
+
+
+/* 
+Learn more font is not right */ 
