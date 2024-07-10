@@ -134,7 +134,7 @@
 
  /* Section-2 */
  .starlink-1{
-  width: 1460px;
+  width: 100%;
   height: 717px;
   position: absolute;
   margin-top: 618px;
@@ -178,7 +178,7 @@
 }
 /*Section-3 */
 .k-mission{
-  width: 1460px;
+  width: 100%;
   height: 717px;
   position: absolute;
   margin-top: 1335px;
@@ -222,7 +222,7 @@
 
 /* Final Section */
 .starlink-2{
-  width: 1460px;
+  width: 100%;
   height: 717px;
   position: absolute;
   margin-top: 2052px;
@@ -268,7 +268,7 @@
   justify-content: center;
     margin-top: 2769px;
    position: absolute;
-   width: 1460px;
+   width: 100%;
    height: 80px;
    display: flex;
   background-color: black;
